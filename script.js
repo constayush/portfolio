@@ -7,10 +7,10 @@ let mainNav = document.querySelector(".mainNav");
 function menuClicked() {
   if (mainNav.classList.contains("visible")) {
     mainNav.classList.replace("visible", "invisible");
-    menuBtn.src = "/images/menu-2.png";
+    menuBtn.src = "./images/menu-2.png";
   } else if (mainNav.classList.contains("invisible")) {
     mainNav.classList.replace("invisible", "visible");
-    menuBtn.src = "/images/close.png";
+    menuBtn.src = "./images/close.png";
   }
 }
 
