@@ -48,23 +48,15 @@ window.addEventListener("scroll", () => {
 });
 
 //custom cursor
-let cur = document.querySelector(".cursor");
-let cur2 = document.querySelector(".cursor-2");
-let content = document.querySelector("body");
+// let cur = document.querySelector(".cursor");
 
-content.addEventListener("mousemove", function (dets) {
-  cur.style.left = (dets.x - 5) + "px";
-  cur.style.top = (dets.y  )+ "px";
-  cur2.style.left = (dets.x - 5) + "px";
-  cur2.style.top = (dets.y  )+ "px";
-});
+// let content = document.querySelector("body");
 
-
-
-
-
-
-
+// content.addEventListener("mousemove", function (dets) {
+//   cur.style.left = (dets.x - 5) + "px";
+//   cur.style.top = (dets.y  )+ "px";
+  
+// })
 
 
 
